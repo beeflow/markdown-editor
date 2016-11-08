@@ -1,0 +1,36 @@
+{
+  "name": "beeflow/markdown-editor",
+  "type": "symfony-bundle",
+  "vesion": "0.1",
+  "description": "Fork for jbt markdown editor to work as Symfony bundle",
+  "keywords": [
+    "markdown",
+    "jbt",
+    "markdown-editor"
+  ],
+  "homepage": "https://github.com/beeflow/markdown-editor",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "James Taylor",
+      "email": "jt@gosquared.com"
+    },
+    {
+      "name": "Rafal Przetakowski",
+      "email": "rafal.p@beeflow.co.uk"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/beeflow/markdown-editor/issues",
+    "source": "https://github.com/beeflow/markdown-editor/"
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "symfony/framework-bundle": ">=2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Beeflow\\markdown-editor\\": ""
+    }
+  }
+}

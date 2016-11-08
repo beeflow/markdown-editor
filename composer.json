@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Beeflow\\markdown-editor\\": ""
+      "Beeflow\\MarkdownEditorBundle\\": ""
     }
   }
 }

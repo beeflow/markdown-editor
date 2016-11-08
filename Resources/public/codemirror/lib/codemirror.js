@@ -3480,7 +3480,7 @@
     }
     if (clickInGutter(cm, e)) return;
     var start = posFromMouse(cm, e);
-    window.focus();
+    /*window.focus();*/
 
     switch (e_button(e)) {
     case 1:
@@ -4752,7 +4752,7 @@
 
   CodeMirror.prototype = {
     constructor: CodeMirror,
-    focus: function(){window.focus(); this.display.input.focus();},
+    focus: function(){/*window.focus();*/ this.display.input.focus();},
 
     setOption: function(option, value) {
       var options = this.options, old = options[option];

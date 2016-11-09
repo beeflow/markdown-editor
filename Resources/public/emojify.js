@@ -117,7 +117,7 @@
             }
 
             function defaultReplacer(emoji, name) {
-                return "<img title=':" + name + ":' alt=':" + name + ":' class='emoji' src='" + defaultConfig.img_dir + '/' + name + ".png' align='absmiddle' />";
+                return "<img title=':" + name + ":' alt=':" + name + ":' class='emoji' src='/" + defaultConfig.img_dir + '/' + name + ".png' align='absmiddle' />";
             }
 
             function Validator() {
